@@ -1,4 +1,4 @@
-package src.ru.alles;
+package ru.alles;
 
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
@@ -13,5 +13,6 @@ import org.junit.runner.Result;
 public class Main {
 
     public static void main(String[] args) {
+        System.out.println("test");
     }
 }

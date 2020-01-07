@@ -1,4 +1,4 @@
-package src.ru.alles.good;
+package ru.alles.good;
 
 public class Crow extends Bird {
 

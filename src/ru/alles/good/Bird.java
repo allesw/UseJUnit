@@ -1,12 +1,12 @@
-package src.ru.alles.good;
+package ru.alles.good;
 
 public abstract class Bird {
     private boolean isFlying;
     private final String name;
 
     Bird(String name) {
-        if(name.isEmpty()){
-            //throw new RuntimeException("Name can't be empty");
+        if (name.isEmpty()) {
+            throw new RuntimeException("Name is empty!");
         }
         this.isFlying = false;
         this.name = name;
